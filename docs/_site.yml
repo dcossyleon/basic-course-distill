@@ -1,0 +1,19 @@
+name: "distill"
+title: "Distill for R Markdown"
+favicon: images/favicon.png
+base_url: https://rstudio.github.io/distill
+repository_url: https://github.com/rstudio/distill
+creative_commons: CC BY
+output_dir: "."
+navbar:
+  logo:
+    icon: fab fa-github
+    href: https://www.rstudio.com
+  right:
+    - text: "2nd Page"
+      href: second_page.html
+    - text: "THIRD 3 Page"
+      href: "third_page.html"
+output:
+  distill::distill_article:
+    toc: true
