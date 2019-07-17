@@ -1,5 +1,5 @@
 name: "distill"
-title: "Distill for R Markdown"
+title: "Basic Distill for a course"
 favicon: images/favicon.png
 base_url: https://rstudio.github.io/distill
 repository_url: https://github.com/rstudio/distill
