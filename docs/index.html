@@ -19,31 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Basic Distill for a course: My First Distill Site</title>
+  <title>Demo Website</title>
   
-  <meta property="description" itemprop="description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="description" itemprop="description" content="Welcome to my Distill course page. Here you can find all course logistics and content."/>
   
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
-  <link rel="icon" type="image/png" href="images/favicon.png"/>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/>
   
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-07-22"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-07-22"/>
+  <meta name="article:author" content="Desirée De Leon"/>
+  <meta name="article:author" content="Alison Hill"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Basic Distill for a course: My First Distill Site"/>
+  <meta property="og:title" content="Demo Website"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="og:description" content="Welcome to my Distill course page. Here you can find all course logistics and content."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Basic Distill for a course"/>
+  <meta property="og:site_name" content="Demo Website"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Basic Distill for a course: My First Distill Site"/>
-  <meta property="twitter:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="twitter:title" content="Demo Website"/>
+  <meta property="twitter:description" content="Welcome to my Distill course page. Here you can find all course logistics and content."/>
   
   <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=R for data science: Import, tidy, transform, visualize, and model data;citation_publication_date=2017;citation_publisher=O’Reilly Media, Inc.;citation_author=Hadley Wickham;citation_author=Garrett Grolemund"/>
+  <meta name="citation_reference" content="citation_title=Lorem ipsum;citation_author= Wasai"/>
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["My First Distill Site"]},{"type":"character","attributes":{},"value":["Welcome to the website. I hope you enjoy it!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","bibliography","date","site"]}},"value":[{"type":"character","attributes":{},"value":["Demo Website"]},{"type":"character","attributes":{},"value":["Welcome to my Distill course page. Here you can find all course logistics and content.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Desirée De Leon"]},{"type":"character","attributes":{},"value":["https://desiree.rbind.io"]},{"type":"character","attributes":{},"value":["RStudio"]},{"type":"character","attributes":{},"value":["https://rstudio.com"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Alison Hill"]},{"type":"character","attributes":{},"value":["https://alison.rbind.io"]},{"type":"character","attributes":{},"value":["RStudio"]},{"type":"character","attributes":{},"value":["https://rstudio.com"]}]}]},{"type":"character","attributes":{},"value":["refs.bib"]},{"type":"character","attributes":{},"value":["2019-07-22"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1274,7 +1282,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"My First Distill Site","description":"Welcome to the website. I hope you enjoy it!","authors":[]}
+{"title":"Demo Website","description":"Welcome to my Distill course page. Here you can find all course logistics and content.","authors":[{"author":"Desirée De Leon","authorURL":"https://desiree.rbind.io","affiliation":"RStudio","affiliationURL":"https://rstudio.com"},{"author":"Alison Hill","authorURL":"https://alison.rbind.io","affiliation":"RStudio","affiliationURL":"https://rstudio.com"}],"publishedDate":"2019-07-22T00:00:00.000-05:00","citationText":"Leon & Hill, 2019"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1283,13 +1291,13 @@
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a class="logo" href="https://www.rstudio.com">
-<img/>
+<img src="images/logo.png"/>
 </a>
-<a href="index.html" class="title">Basic Distill for a course</a>
+<a href="index.html" class="title">Demo Website</a>
 </div>
 <div class="nav-right">
-<a href="second_page.html">2nd Page</a>
-<a href="third_page.html">THIRD 3 Page</a>
+<a href="index.html">Home</a>
+<a href="about.html">Lectures</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -1299,13 +1307,79 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>My First Distill Site</h1>
-<p>Welcome to the website. I hope you enjoy it!</p>
+<h1>Demo Website</h1>
+<p>Welcome to my Distill course page. Here you can find all course logistics and content.</p>
 </div>
 
+<div class="d-byline">
+  Desirée De Leon <a href="https://desiree.rbind.io" class="uri">https://desiree.rbind.io</a> (RStudio)<a href="https://rstudio.com" class="uri">https://rstudio.com</a>
+  
+,   Alison Hill <a href="https://alison.rbind.io" class="uri">https://alison.rbind.io</a> (RStudio)<a href="https://rstudio.com" class="uri">https://rstudio.com</a>
+  
+<br/>2019-07-22
+</div>
 
 <div class="d-article">
-<p>This is the index page. It is the homepage.</p>
+<h1 id="welcome">Welcome</h1>
+<p>This is the course website for DATA-101 Introductory Data Analysis.</p>
+<p><br />
+</p>
+<h1 id="course-overview">Course Overview</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<span class="citation" data-cites="loremipsum">(Wasai, <a href="#ref-loremipsum">n.d.</a>)</span>.</p>
+<aside>
+Here is a small side note.
+</aside>
+<p><br />
+</p>
+<h1 id="logistics">Logistics</h1>
+<p><strong>Lecture:</strong> Wednesdays, 13:00-14:30<br />
+<strong>Labs:</strong> Fridays, biweekly, 13:00-14:30</p>
+<p><br />
+</p>
+<h1 id="schedule">Schedule</h1>
+<ul>
+<li>Wed, Sep 25 Lecture 1</li>
+<li>Wed, Oct 2 Lecture 2</li>
+<li>Wed, Oct 9 Lecture 3</li>
+<li>Wed, Oct 16 Lecture 4</li>
+<li>Wed, Oct 23 Lecture 5</li>
+<li>Wed, Oct 30 Lecture 6</li>
+<li>Wed, Nov 6 Lecture 7</li>
+<li>Wed, Nov 13 Lecture 8</li>
+<li>Wed, Nov 20 Lecture 9</li>
+<li>Wed, Nov 27 - No Class/ Thanksgiving Break<br />
+</li>
+<li>Wed, Dec 4 - Final Exam</li>
+</ul>
+<p><br />
+</p>
+<h1 id="textbook-and-assigned-readings">Textbook and Assigned Readings</h1>
+<p>The textbook below <span class="citation" data-cites="r4ds">(Wickham and Grolemund <a href="#ref-r4ds">2017</a>)</span> is not required but will be referred to throughout the course. It is available online and for free. A hardcopy of the text is on reserve at the university library.</p>
+<p><a href="https://r4ds.had.co.nz/">R for Data Science</a></p>
+<p>When there are assigned articles or readings, these will be posted 2-3 days before the corresponding lecture under the Lectures tab of this course website.</p>
+<aside>
+<img src="http://alturl.com/bmfvq" alt="R4DS" style="width:50.0%" />
+</aside>
+<p><br />
+</p>
+<h1 id="credits">Credits</h1>
+<p>This course is assigned 3 credit hours<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<h1 id="acknowledgments" class="appendix">Acknowledgments</h1>
+<p>We’d like to thank the following funding sources for making this work possible: Source 1, Source 2, and Source 3.</p>
+<div id="refs" class="references">
+<div id="ref-loremipsum">
+<p>Wasai. n.d. “Lorem Ipsum.” <a href="https://loremipsum.io/">https://loremipsum.io/</a>.</p>
+</div>
+<div id="ref-r4ds">
+<p>Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>. 1st ed. O’Reilly Media, Inc. <a href="https://r4ds.had.co.nz/">https://r4ds.had.co.nz/</a>.</p>
+</div>
+</div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A footnote goes here!<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1318,13 +1392,34 @@
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
-<h3 id="updates-and-corrections">Corrections</h3>
-<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/rstudio/distill/issues/new">create an issue</a> on the source repository.</p>
 <h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/rstudio/distill">https://github.com/rstudio/distill</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
 </div>
+<script id="distill-bibliography" type="text/bibtex">
+@book{r4ds,
+ author = {Wickham, Hadley and Grolemund, Garrett},
+ title = {R for Data Science: Import, Tidy, Transform, Visualize, and Model Data},
+ year = {2017},
+ isbn = {1491910399, 9781491910399},
+ edition = {1st},
+ publisher = {O'Reilly Media, Inc.},
+ url = {https://r4ds.had.co.nz/},
+}
+
+@misc{loremipsum,
+  title = {Lorem Ipsum},
+  author = {Wasai},
+  year = {2015-2019},
+  url = {https://loremipsum.io/},
+}
+</script>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>Your Name, youremail@example.com</p>
+<p>Your Collaborator's Name, anotheremail@example.com</p>
+<p>This content was created using the Distill for R Markdown template in RStudio.</p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
 
 </body>
